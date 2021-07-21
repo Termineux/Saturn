@@ -1,53 +1,147 @@
-<!DOCTYPE html>
-<html lang="en">
+<! DOCTYPE html >
+< html  lang = " en " >
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Saturn</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-  <!-- CUSTOM CSS -->
-  <link rel="stylesheet" href="styles.css">
-</head>
+< cabeza >
+  < meta  charset = " UTF-8 " >
+  < meta  name = " viewport " content = " width = device-width, initial-scale = 1, shrink-to-fit = no " >
+  < link  rel = " stylesheet " href = " css / bootstrap.min.css " >
+  < link  rel = " stylesheet " href = " css / main.css " >
+  < link  rel = " stylesheet " href = " https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css " >
+  < link  rel = " icon " href = " assets / favicon.png " >
+  < título > Hbot </ título >
+</ cabeza >
 
-<body>
+< cuerpo >
+  < nav  class = " navbar navbar-expand-lg navbar-dark bg-dark " >
+    < div  class = " contenedor-contenedor de fluido " >
+      < Una  clase = " barra de navegación de la marca " href =" / " >
+        < img  src = " ./assets/bot.png " alt = "" width = " 50 " height = " 50 " class = " círculo-redondeado " > & nbsp; < intervalo > Hbot </ intervalo >
+      </ a >
+      < button  class = " navbar-toggler " type = " button " data-bs-toggle = " collapse " data-bs-target = " #navbarSupportedContent "
+        aria-controls = " navbarSupportedContent " aria- extended = " false " aria-label = " Alternar navegación " >
+        < span  class = " navbar-toggler-icon " > </ span >
+      </ botón >
+      < div  class = " collapse navbar-collapse " id = " navbarSupportedContent " >
+        < ul  class = " navbar-nav me-auto mb-2 mb-lg-0 " >
+          < li  class = " nav-item " >
+            < Una  clase = " nav-link " aria-corriente =" página " href =" # / " > Inicio < lapso de  clase =" SR-only " > (actual) </ envergadura > </ a >
+          </ li >
+          < li  class = " nav-item " >
+            < Una  clase = " nav-link " href =" páginas / commands.html " > Comandos </ a >
+          </ li >
+          < li  class = " nav-item " >
+            < Una  clase = " nav-link " href =" páginas / team.html " > Personal </ a >
+          </ li >
+          < li  class = " menú desplegable de elementos de navegación " >
+            < a  class = " nav-link dropdown-toggle " href = " # " id = " linksdrop " role = " button " data-bs-toggle = " dropdown "
+              aria-expandido = " falso " >
+              Enlaces
+            </ a >
+            < ul  class = " dropdown-menu bgn " aria-labelledby = " linksdrop " >
+              < Li > < una  clase = " desplegable-elemento de texto-silenciado font-weight-bold " href ="" target = " _blank " > Invitar
+                  Bot </ a >
+              </ li >
+              < Li > < una  clase = " text-silenciado font-weight-bold-elemento desplegable " href ="" target = " _blank " > Soporte
+                  Servidor </ a > </ li >
+              < Li > < una  clase = " desplegable-elemento de texto-silenciado font-weight-negrita " href =" páginas / faq.html " > Ayuda </ a > </ li >
+              < li >
+                < hr  class = " dropdown-divider " >
+              </ li >
+              < li > < a  class = " elemento desplegable texto-silenciado font-weight-bold " href = " https://github.com/Hadi-Koubeissi "
+                  target = " _blank " > Github oficial </ a > </ li >
+              < Li > < una  clase = " desplegable-elemento de texto-silenciado font-weight-negrita " href ="" > Ver documentación </ a > </ li >
+            </ ul >
+          </ li >
+        </ ul >
+        < div  class = " d-flex ml-auto " id = " headerlogin " >
+          < li  class = " nav-item " style = " list-style: none; " >
+            < Una  clase = " nav-enlace de inicio de sesión btn btn-outline-secundaria " href =" / login " > Iniciar sesión </ a >
+          </ li >
+        </ div >
+      </ div >
+    </ div >
+  </ nav >
+  </ div >
 
-  <div class="menu-btn">
-    <i class="fas fa-bars fa-2x"></i>
-  </div>
+  < div  class = " jumbotron text-center bg-transparent " >
+    < h1  class = " display-3 htext " > TOHB </ h1 >
+    < p  class = " lead ltext " >
+      ¡Crea un servidor Discord profesional con Hbot !.
+    </ p >
+    < Una  clase = " btn btn-oscuro " href =" / invite " > Añadir a la discordia </ a >
+    & nbsp;
+    < Una  clase = " btn btn-oscuro " href =" / support " > Ingreso de soporte de servidor </ a >
+  </ div >
 
-  <div class="container">
-    <!-- Navigation -->
-    <nav class="nav-main">
-      <!-- Brand -->
-      <h3>SATURN</h3>
-      <!-- Left Nav -->
-      <ul class="nav-menu">
-      </ul>
-    </nav>
+  < div  class = " bg-dark " >
+    < div  class = " text-center " >
+      < h3  class = " wh " > ¿Por qué < span  class = " Hbot " > HBot </ span > ??!. </ h3 >
+    </ div >
+    < h5  class = " text-center textt " > ¡ Le ofrecemos las mejores funciones en Bot! </ h5 >
+    < div  class = " tarjetas-columnas cardds " >
+      < div  class = " card text-white bg-dark mb-3 " style = " max-width: 18rem; " >
+        < div  class = " card-header text-center " > 99,9% en línea 🚀 </ div >
+        < div  class = " card-body " >
+          < p  class = " card-text " > Algún texto de ejemplo rápido para construir en el título de la tarjeta y constituir la mayor parte de la tarjeta
+            contenido. </ p >
+        </ div >
+      </ div >
 
-    <!-- SHOWCASE -->
-    <header class="saturn">
-      <img src="./img/saturn2.png" alt="" class="imagen">
-      <h1>Saturn</h1>
-      <p>Saturn es un bot multifuncional creado para ayudar a comunidades con sus multiples funciones, tiene comandos de administración, moderación, diversión, economía basica, sorteos, utilidad y soporte, también cuenta con un host que lo mantiene activo 24/7.</p>
-    </header>
-  </div>
+      < div  class = " card text-white bg-dark mb-3 " style = " max-width: 18rem; " >
+        < div  class = " card-header text-center " > Fácil de usar 💻 </ div >
+        < div  class = " card-body " >
+          < p  class = " card-text " > Algún texto de ejemplo rápido para construir en el título de la tarjeta y constituir la mayor parte de la tarjeta
+            contenido. </ p >
+        </ div >
+      </ div >
+      < div  class = " card text-white bg-dark mb-3 " style = " max-width: 18rem; " >
+        < div  class = " card-header text-center " > Código abierto 🔓 </ div >
+        < div  class = " card-body " >
+          < p  class = " card-text " > Algún texto de ejemplo rápido para construir en el título de la tarjeta y constituir la mayor parte de la tarjeta
+            contenido. </ p >
+        </ div >
+      </ div >
+    </ div >
 
-  <div class="botones">
-    <a href="https://discord.com/api/oauth2/authorize?client_id=837900116077183007&permissions=8&scope=bot" class="btn">Añademe a tu server</a>
-    <a href="" class="btn">Servidor de Soporte (Proxiamente)</a>
-  </div>
+    < div  class = " bgseconde " >
+      < h3  class = " ttjoin ml-5 " > < span > Únase a nuestro </ span >
+        < Br >
+        comunidad ahora!
+      </ h3 >
+      < div  class = " float-right mr-5 " >
+        < ul  class = " social-icons " >
+          < Li > < un  href = "" clase = " icono sociales " >  < i  clase =" fa fa-facebook " > </ i > </ a > </ li >
+          < Li > < un  href = "" clase = " icono sociales " >  < i  clase =" fa fa-twitter " > </ i > </ a > </ li >
+          < Li > < un  href = "" clase = " icono sociales " >  < i  clase =" fa fa-github " > </ i > </ a > </ li >
+        </ ul >
+        < Div  estilo = " transformada: none; " > < un  href ="" target = " _blank " >  < botón de  clase =" add_to_discord " h > < svg  anchura =" 30 "
+                height = " 35 " viewBox = " 0 0 30 35 " fill = " none " xmlns = " http://www.w3.org/2000/svg " >
+                < ruta  fill-rule = " evenodd " clip-rule = " evenodd "
+                  d = "M3.51429 0.416687H26.4857C28.4229 0.416687 30 1.98835 30 3.93585V34.5834L26.3143 31.3375L24.24 29.4242L22.0457 27.3913L22.9543 30.5517H3.51429C1.57714 30.5517 0 28.98 0 27.031414V3.68835 ZM18.7371 21.3438C19.2514 21.9929 19.8686 22.7275 19.8686 22.7275C23.6571 22.6079 25.1143 20.1309 25.1143 20.1309C25.1143 14.63 22.6457 10.1713 22.6457 10.1713C20.1771 8.32627 17.8286 8.35208752 8.6571 8.32627 17.8286 8.35208751 8.657 0743 9.84669 18.3257 9.36835 16.6971 9.18044C15.4629 9.04377 14.28 9.07794 13.2343 9.2146C13.1445 9.2146 13.0678 9.22762 12.9813 9.2423C12.9687 9.24443 12.9559 9.2466 12.9429 9.24877C12.3429 1014.02 10.820C 9.46286 9.47085 12.5486 8.58252L12.3771 8.37752C12.3771 8.37752 10.0286 8.32627 7.56 10.1713C7.56 10.1713 5.09143 14.63 5.09143 20.1309C5.09143 20.1309 6.53143 22.6079 10.32 22.7275C10.32 22.7275 10.9543 21.9588 11.4686 21.3096C9.29143 20.6604 8.46857 19.2938.98 9.01714 19.6354C9.04286 19.6525 9.06857 19.6653 9.09429 19.6781C9.12 19.691 9.14571 19.7038 9.17143 19.7209C9.6 19.96 10.0286 20.1479 10.4229 20.3017C11.1257 20.575 11.9657 20.8484 12.9429 20.028.716.37.1887 20.8484 12.9429 20.028.716.38.288 C20.4686 20.0967 21.1371 19.7721 21.84 19.3109C21.84 19.3109 20.9829 20.7117 18.7371 21.3438ZM10.1486 16.6459C10.1486 15.6038 10.92 14.7496 11.8971 14.7496C12.8743 14.7496 13.69C13.645. .688 10.1486 16.6459ZM16.4057 16.6459C16.4057 15.6038 17.1771 14.7496 18.1543 14.7496C19.1314 14.7496 19.9028 15.6038 19.9028 16.6459C19.9028 17.688 19.1314 18.5421 18.1543 18.5421C17.1943 18.54.645 169.457"
+                  relleno = " blanco " > </ ruta >
+              </ svg > Agregar a la discordia </ botón > </ a > </ div >
+      </ div >
+    </ div >
 
-  <!-- Footer -->
-  <footer class="footer">
-    <h3>Copyright © 2020-2023 - Todos los derechos reservados a sus respectivos dueños</h3>
-  </footer>
+    < footer  class = " mastfoot mb-auto " >
+      < div  class = " container-fluid mb-auto " >
+        < div  class = " fila d-flex justify-content-center " >
+          < div  class = "" >
+            < p  style = " font-size: 19px; padding: 0px; margin: 0px; " > < a  href = " https://github.com/Hadi-Koubeissi "
+                style = " text-decoration: none; color: white; " > Hecho con 💖 por Hadi Koubeissi </ a > </ br > Hbot ©
+              2021. Todos
+              Derechos reservados. </ Br > [ < un  href = " ./pages/license.html " > < b > Condiciones de Uso </ b > </ una > ] </ p >
+          </ div >
+        </ div >
+      </ div >
+    </ pie de página >
 
-  <!-- Scroll Reveal -->
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="main.js"></script>
-</body>
+    < script  src = " https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js "
+      integridad = " sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7 / t7LECLbyPA2x65Kgf80OJFdroafW "
+      crossorigin = " anónimo " > </ script >
+    < script  src = " https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js " > </ script >
+    < script  src = " https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js " > </ script >
+    < script  src = " ../js / main.js " > </ script >
+</ cuerpo >
 
-</html>
+</ html >
